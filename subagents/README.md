@@ -38,9 +38,9 @@ Um subagent não deve:
 - `dados-bi-analyst.md`
 - `sdr-comercial-analyst.md`
 - `copy-strategist.md`
+- `competitive-intelligence-analyst.md`
 
 ## Próximos candidatos
-- `competitive-intelligence-analyst.md`
 - especialistas adicionais apenas se houver necessidade real de operação
 
 ## Regra de qualidade

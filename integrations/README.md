@@ -21,6 +21,7 @@ Cada integração documentada aqui deve esclarecer:
 - `mcp-architecture.md`
 - `mcp-rebuild-plan.md`
 - `mcp-deployment-inventory.md`
+- `mcp-operator-guide.md`
 
 ## Regra de qualidade
 Documentar uma integração não é só listar campos.

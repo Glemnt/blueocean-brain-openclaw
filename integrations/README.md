@@ -20,6 +20,7 @@ Cada integração documentada aqui deve esclarecer:
 - `apify.md`
 - `mcp-architecture.md`
 - `mcp-rebuild-plan.md`
+- `mcp-deployment-inventory.md`
 
 ## Regra de qualidade
 Documentar uma integração não é só listar campos.

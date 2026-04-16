@@ -12,7 +12,7 @@ Cada integração documentada aqui deve esclarecer:
 - riscos de leitura incorreta
 - limites de uso pelo agente principal e pelos especialistas
 
-## Integrações atuais e esperadas
+## Integrações atuais
 - `meta-ads.md`
 - `kommo.md`
 - `google-sheets.md`

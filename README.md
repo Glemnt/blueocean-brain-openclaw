@@ -13,7 +13,7 @@ Transformar o conteúdo útil do `blueocean-brain` em um brain OpenClaw mais coe
 - playbooks operacionais, estratégicos e executivos centrais criados e validados
 - primeira rodada de subagents nativos criada e validada
 - documentação das integrações principais consolidada
-- templates mínimos de entrada adicionados para análises recorrentes
+- templates de entrada e saída adicionados para usos recorrentes
 - repositório original preservado como fonte histórica de comparação
 
 ## Princípios da migração
@@ -46,7 +46,7 @@ Se você está chegando agora, a leitura recomendada é:
 - `playbooks/` — fluxos operacionais canônicos
 - `subagents/` — especialistas OpenClaw por domínio
 - `integrations/` — documentação de integrações reais e seus limites
-- `templates/` — inputs mínimos recomendados para análises recorrentes
+- `templates/` — templates enxutos para entradas e saídas recorrentes
 
 ## Playbooks atuais
 - `playbooks/triage.md`
@@ -71,6 +71,8 @@ Se você está chegando agora, a leitura recomendada é:
 - `templates/crm-reconciliation.md`
 - `templates/sdr-analysis.md`
 - `templates/competitive-intelligence.md`
+- `templates/executive-report-output.md`
+- `templates/action-prioritization-output.md`
 
 ## Regra transversal mais importante
 Quando houver dúvida sobre qual dado prevalece, vale a **fonte mais próxima do evento real**.

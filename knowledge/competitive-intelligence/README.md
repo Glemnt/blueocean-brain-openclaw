@@ -12,6 +12,12 @@ Aqui devem morar:
 - frameworks de análise competitiva
 - aprendizados que ajudam posicionamento, copy, criativo e oferta
 
+## Conteúdo atual
+- `competitors.md`
+- `analysis-frameworks.md`
+- `landing-page-analysis.md`
+- `creative-analysis.md`
+
 ## Regra de qualidade
 Inteligência competitiva útil:
 - não é espionagem vazia

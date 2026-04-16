@@ -9,9 +9,10 @@ Transformar o conteúdo útil do `blueocean-brain` em um brain OpenClaw mais coe
 
 ## Status atual
 - canon principal migrado
-- knowledge essencial portado
-- playbooks centrais iniciais criados e validados
+- knowledge essencial portado e expandido com camada competitiva
+- playbooks operacionais e executivos centrais criados e validados
 - primeira rodada de subagents nativos criada e validada
+- templates mínimos de entrada adicionados para análises recorrentes
 - repositório original preservado como fonte histórica de comparação
 
 ## Princípios da migração
@@ -48,8 +49,12 @@ Se você está chegando agora, a leitura recomendada é:
 - `playbooks/triage.md`
 - `playbooks/marketing-diagnosis.md`
 - `playbooks/crm-reconciliation.md`
+- `playbooks/stack-failure-triage.md`
 - `playbooks/account-risk.md`
 - `playbooks/governance-escalation.md`
+- `playbooks/competitive-intelligence.md`
+- `playbooks/executive-reporting.md`
+- `playbooks/action-prioritization.md`
 
 ## Subagents atuais
 - `subagents/meta-ads-analyst.md`
@@ -57,6 +62,12 @@ Se você está chegando agora, a leitura recomendada é:
 - `subagents/sdr-comercial-analyst.md`
 - `subagents/copy-strategist.md`
 - `subagents/competitive-intelligence-analyst.md`
+
+## Templates atuais
+- `templates/marketing-diagnosis.md`
+- `templates/crm-reconciliation.md`
+- `templates/sdr-analysis.md`
+- `templates/competitive-intelligence.md`
 
 ## Regra transversal mais importante
 Quando houver dúvida sobre qual dado prevalece, vale a **fonte mais próxima do evento real**.

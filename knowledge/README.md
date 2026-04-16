@@ -9,6 +9,7 @@ Aqui mora a referência recorrente. O canon principal continua em `company/` e `
 - `benchmarks/` — benchmarks internos úteis para leitura comparativa
 - `patterns/` — padrões diagnósticos nomeados
 - `matrices/` — ownership, governança e gatilhos de escalonamento
+- `competitive-intelligence/` — referências de mercado, concorrentes e frameworks competitivos
 - `memory-governance.md` — política para separar memória local de inteligência versionada
 
 ## Regras

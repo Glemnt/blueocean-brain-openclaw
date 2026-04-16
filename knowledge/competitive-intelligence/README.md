@@ -17,6 +17,7 @@ Aqui devem morar:
 - `analysis-frameworks.md`
 - `landing-page-analysis.md`
 - `creative-analysis.md`
+- `discovery-patterns.md`
 
 ## Regra de qualidade
 Inteligência competitiva útil:

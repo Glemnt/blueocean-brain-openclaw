@@ -12,6 +12,8 @@ Playbook não é prompt longo nem roteador de comando. É a forma padrão de con
 - `account-risk.md` — leitura de saúde de conta, risco, pré-churn e contenção
 - `governance-escalation.md` — definição de alçada, trava e escalonamento
 - `competitive-intelligence.md` — leitura comparativa de concorrentes e referências de mercado
+- `executive-reporting.md` — consolidação executiva de resultados, riscos e próximos passos
+- `action-prioritization.md` — ordenação de ações por impacto, dependência, risco e confiança
 
 ## Regra de desenho
 Cada playbook deve:

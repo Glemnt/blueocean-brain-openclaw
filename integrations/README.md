@@ -15,6 +15,7 @@ Cada integração documentada aqui deve esclarecer:
 ## Integrações atuais
 - `meta-ads.md`
 - `kommo.md`
+- `kommo-setup.md`
 - `google-sheets.md`
 - `google-sheets-setup.md`
 - `google-sheets-operating-model.md`

@@ -18,6 +18,7 @@ Cada integração documentada aqui deve esclarecer:
 - `google-sheets.md`
 - `n8n.md`
 - `apify.md`
+- `mcp-architecture.md`
 
 ## Regra de qualidade
 Documentar uma integração não é só listar campos.

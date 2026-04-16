@@ -19,6 +19,7 @@ Cada integração documentada aqui deve esclarecer:
 - `n8n.md`
 - `apify.md`
 - `mcp-architecture.md`
+- `mcp-rebuild-plan.md`
 
 ## Regra de qualidade
 Documentar uma integração não é só listar campos.

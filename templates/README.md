@@ -19,10 +19,12 @@ Quando faltar contexto para uma análise importante:
 - `crm-reconciliation.md`
 - `sdr-analysis.md`
 - `competitive-intelligence.md`
+- `executive-report-output.md`
+- `action-prioritization-output.md`
 
 ## Regra de qualidade
 Bom template:
-- melhora a qualidade da entrada
+- melhora a qualidade da entrada ou da saída
 - reduz retrabalho
 - não burocratiza
-- deixa claro o que é obrigatório e o que é opcional
+- deixa claro o que é obrigatório, opcional ou estrutural no formato de entrega

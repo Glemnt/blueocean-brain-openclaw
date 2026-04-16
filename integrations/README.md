@@ -16,6 +16,7 @@ Cada integração documentada aqui deve esclarecer:
 - `meta-ads.md`
 - `kommo.md`
 - `google-sheets.md`
+- `google-sheets-setup.md`
 - `n8n.md`
 - `apify.md`
 - `mcp-architecture.md`

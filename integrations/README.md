@@ -17,6 +17,7 @@ Cada integração documentada aqui deve esclarecer:
 - `kommo.md`
 - `google-sheets.md`
 - `google-sheets-setup.md`
+- `google-sheets-operating-model.md`
 - `n8n.md`
 - `apify.md`
 - `mcp-architecture.md`

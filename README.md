@@ -5,13 +5,14 @@ Repositório nativo OpenClaw para a operação intelectual da Blue Ocean.
 Ele nasce a partir do `blueocean-brain`, mas não tenta copiar o runtime anterior. A proposta aqui é portar a inteligência, reorganizar o canon e deixar a arquitetura mais limpa, portátil e governável.
 
 ## Objetivo
-Transformar o conteúdo útil do `blueocean-brain` em um brain OpenClaw mais coerente para uso real, com menos duplicação, mais clareza de ownership e melhor separação entre canon, referência, playbooks e especialistas.
+Transformar o conteúdo útil do `blueocean-brain` em um brain OpenClaw mais coerente para uso real, com menos duplicação, mais clareza de ownership e melhor separação entre canon, referência, playbooks, especialistas, integrações e templates.
 
 ## Status atual
 - canon principal migrado
 - knowledge essencial portado e expandido com camada competitiva
-- playbooks operacionais e executivos centrais criados e validados
+- playbooks operacionais, estratégicos e executivos centrais criados e validados
 - primeira rodada de subagents nativos criada e validada
+- documentação das integrações principais consolidada
 - templates mínimos de entrada adicionados para análises recorrentes
 - repositório original preservado como fonte histórica de comparação
 
@@ -33,8 +34,10 @@ Se você está chegando agora, a leitura recomendada é:
 5. `governance/red-lines.md`
 6. `governance/decision-framework.md`
 7. `knowledge/company-brain/source-truth-rules.md`
-8. `playbooks/README.md`
-9. `subagents/README.md`
+8. `integrations/README.md`
+9. `playbooks/README.md`
+10. `subagents/README.md`
+11. `templates/README.md`
 
 ## Estrutura
 - `company/` — identidade, ofertas, ICP e glossário operacional
@@ -85,4 +88,4 @@ Este repositório novo existe para:
 - consolidar o que vale manter
 - corrigir acoplamentos do runtime anterior
 - simplificar a operação em OpenClaw
-- servir como futura base principal do brain
+- servir como base principal e evolutiva do brain

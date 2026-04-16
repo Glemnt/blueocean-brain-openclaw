@@ -287,10 +287,22 @@ Guardar material antigo ou de suporte, sem poluir a camada viva.
 ## Prioridade de confiança
 Para o dia a dia, a ordem recomendada de confiança é:
 1. fonte mais próxima do evento real
-2. CRM para entidade comercial viva
-3. plataforma para spend/entrega
-4. Sheets para reconciliação, contexto operacional e complementação
-5. relatórios derivados para leitura secundária
+2. plataforma para spend/entrega
+3. camada operacional mais bem mantida no processo real
+4. CRM para entidade comercial viva, quando o preenchimento estiver íntegro
+5. Sheets para reconciliação, contexto operacional e complementação, ou como camada operacional principal quando estiverem mais sólidos que o CRM
+6. relatórios derivados para leitura secundária
+
+### Regra específica do estado atual da Blue Ocean
+No estado atual informado pela operação:
+- a planilha `Planilha Comercial x Marketing V.2` está mais sólida do que Kommo para parte relevante da leitura comercial
+- isso acontece porque o preenchimento em Kommo ainda sofre com disciplina operacional irregular de SDRs e Closers
+- João Lopes atua hoje como Sales Ops e atualiza diariamente a planilha comercial, o que aumenta a confiabilidade operacional dessa camada
+
+Portanto, até nova validação estrutural:
+- `Planilha Comercial x Marketing V.2` deve ser tratada como camada comercial mais confiável para leitura diária de reuniões, qualificação, próximos passos e fechamento operacional
+- Kommo não deve ser presumido como verdade superior por padrão sem auditoria de integridade
+- a hierarquia final deve ser recalibrada depois de validar o stack, o preenchimento real no CRM e a consistência das automações
 
 ## Casos práticos que o agente poderá responder melhor agora
 Com o Google Sheets já disponível, o agente passa a conseguir:
@@ -301,10 +313,20 @@ Com o Google Sheets já disponível, o agente passa a conseguir:
 - cruzar planilha de leads com planilha comercial para leitura parcial de funil
 - detectar sinais de `Lead Fantasma` na operação WhatsApp
 
+## Necessidade crítica antes da reconciliação final
+Antes de tratar o cruzamento entre marketing e comercial como confiável, é necessário validar:
+- se as automações do n8n estão 100%
+- se os dados da planilha `CONTROLE DE LEADS GERAL` estão chegando de forma correta
+- se os campos necessários para ligação entre captação e comercial estão íntegros
+- se a passagem entre marketing, planilha e comercial não está perdendo ou distorcendo informação
+
+Sem essa validação, qualquer cruzamento entre as duas planilhas deve ser tratado como útil, porém ainda sujeito a falhas de stack.
+
 ## Próxima evolução natural
 Depois de integrar Kommo, o uso ideal será:
-- Kommo como fonte viva de entidade comercial
-- Google Sheets como camada operacional complementar e de reconciliação
 - Meta Ads como camada de aquisição e entrega
+- `CONTROLE DE LEADS GERAL` como camada de entrada e tracking operacional de marketing
+- `Planilha Comercial x Marketing V.2` como camada comercial diária enquanto continuar mais confiável que o CRM
+- Kommo como fonte de entidade comercial viva apenas na medida em que passar na auditoria de integridade operacional
 
-A força real virá do cruzamento entre as três, não de Sheets isoladamente.
+A força real virá do cruzamento entre as três camadas mais o stack de automação validado, não do uso isolado de nenhuma delas.

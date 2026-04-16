@@ -8,6 +8,7 @@ Playbook não é prompt longo nem roteador de comando. É a forma padrão de con
 - `triage.md` — triagem inicial, classificação do problema e roteamento correto
 - `marketing-diagnosis.md` — leitura de mídia e funil com evidência e decisão
 - `crm-reconciliation.md` — reconciliação entre fontes e validação de integridade
+- `sheets-commercial-reconciliation.md` — reconciliação marketing × comercial quando as planilhas estão mais confiáveis que o CRM
 - `stack-failure-triage.md` — localização de falha de stack e distinção entre quebra técnica e erro de leitura
 - `account-risk.md` — leitura de saúde de conta, risco, pré-churn e contenção
 - `governance-escalation.md` — definição de alçada, trava e escalonamento

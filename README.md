@@ -42,6 +42,7 @@ Se você está chegando agora, a leitura recomendada é:
 - `playbooks/` — fluxos operacionais canônicos
 - `subagents/` — especialistas OpenClaw por domínio
 - `integrations/` — documentação de integrações reais e seus limites
+- `templates/` — inputs mínimos recomendados para análises recorrentes
 
 ## Playbooks atuais
 - `playbooks/triage.md`
@@ -55,6 +56,7 @@ Se você está chegando agora, a leitura recomendada é:
 - `subagents/dados-bi-analyst.md`
 - `subagents/sdr-comercial-analyst.md`
 - `subagents/copy-strategist.md`
+- `subagents/competitive-intelligence-analyst.md`
 
 ## Regra transversal mais importante
 Quando houver dúvida sobre qual dado prevalece, vale a **fonte mais próxima do evento real**.

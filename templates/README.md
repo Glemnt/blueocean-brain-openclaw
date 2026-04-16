@@ -1,9 +1,9 @@
 # Templates
 
-Templates servem para reduzir ambiguidade na entrada sem transformar o agente em formulário burocrático.
+Templates servem para reduzir ambiguidade tanto na entrada quanto na saída, sem transformar o agente em formulário burocrático.
 
 ## Princípio
-Pedir apenas o mínimo necessário para produzir uma leitura forte.
+Pedir ou entregar apenas o necessário para produzir uma leitura forte, clara e reutilizável.
 
 Campos adicionais podem melhorar a análise, mas não devem bloquear o fluxo quando o essencial já estiver disponível.
 
@@ -13,6 +13,11 @@ Quando faltar contexto para uma análise importante:
 - pedir apenas os campos obrigatórios que realmente faltam
 - marcar os complementares como opcionais
 - evitar despejar checklist completo se isso não ajudar o usuário
+
+Quando o problema já estiver entendido e o valor estiver na forma de entrega:
+- usar templates de saída para padronizar a resposta
+- manter a estrutura clara sem burocratizar
+- adaptar o nível de detalhe ao contexto executivo ou operacional
 
 ## Templates atuais
 - `marketing-diagnosis.md`

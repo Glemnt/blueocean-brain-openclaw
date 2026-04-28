@@ -83,3 +83,10 @@ Cada padrão deve ajudar a reconhecer um cenário recorrente sem substituir vali
 - causa raiz provável: urgência acima de prudência, uso cego do dashboard ou ausência de auditoria de fonte
 - armadilha: aceitar a decisão porque alguém importante quer velocidade
 - ação imediata: travar a decisão e expor a fragilidade da base
+
+### Padrão 12: atribuição fantasma
+- fingerprint: plataforma, CRM, Sheets ou dashboard atribuem volume/resultado a uma origem, campanha ou SDR sem trilha íntegra entre clique, lead, automação e avanço comercial
+- diagnóstico: a atribuição parece existir no relatório, mas não está comprovada na trilha operacional
+- causa raiz provável: source/source_id mal preenchido, webhook incompleto, match temporal frágil, campo de campanha ausente, dashboard derivado ou regra de atribuição antiga
+- armadilha: otimizar mídia, copy ou comercial com base em atribuição aparente
+- ação imediata: auditar a cadeia de captura → automação → CRM → Sheets antes de declarar vencedor, vilão ou CPL real

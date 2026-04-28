@@ -1,0 +1,25 @@
+# Schema — Inventário Criativo
+
+- `creative_id_sanitized`
+- `campaign_sanitized`
+- `adset_sanitized`
+- `format`: static/video/carousel/ugc/demo/other
+- `launch_date`
+- `hook`
+- `pain`
+- `mechanism`
+- `proof`
+- `persona`
+- `funnel_stage`
+- `cta`
+- `angle_group`
+- `is_distinct_creative`: true/false
+- `similar_to[]`
+- `spend`
+- `ctr`
+- `cpl_platform`
+- `cpl_real`
+- `frequency`
+- `crm_signal`
+- `decision`: keep/iterate/pause/remake/investigate
+- `confidence`

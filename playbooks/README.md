@@ -7,11 +7,23 @@ Playbook não é prompt longo nem roteador de comando. É a forma padrão de con
 ## Playbooks atuais
 - `triage.md` — triagem inicial, classificação do problema e roteamento correto
 - `marketing-diagnosis.md` — leitura de mídia e funil com evidência e decisão
+- `meta-ads-formal-audit.md` — auditoria completa de conta Meta Ads com health score
+- `creative-inventory.md` — inventário criativo, diversidade Andromeda e fadiga
+- `ab-test-design.md` — desenho de experimentos com hipótese, guardrails e decisão
+- `google-ads-diagnosis.md` — diagnóstico específico de Google Ads
+- `media-planning.md` — planejamento de mídia, budget, canais e capacidade comercial
+- `forecasting.md` — projeção de resultado por cenários e confiança
+- `period-comparison.md` — comparação WoW/MoM com normalização
 - `crm-reconciliation.md` — reconciliação entre fontes e validação de integridade
 - `sheets-commercial-reconciliation.md` — reconciliação marketing × comercial quando as planilhas estão mais confiáveis que o CRM
 - `stack-failure-triage.md` — localização de falha de stack e distinção entre quebra técnica e erro de leitura
+- `lead-fantasma-triage.md` — diagnóstico específico de CTWA, Lead Real, Lead Fantasma e trilha WhatsApp
+- `lead-qualification.md` — qualificação explícita de fit, Lead Real e oportunidade
 - `account-risk.md` — leitura de saúde de conta, risco, pré-churn e contenção
+- `account-onboarding.md` — checklist de entrada de conta, escopo, owners e tracking
+- `sales-to-ops-handoff-review.md` — revisão de promessa, escopo e risco comercial → operação
 - `governance-escalation.md` — definição de alçada, trava e escalonamento
+- `process-institutionalization-audit.md` — maturidade de processos e formalização
 - `competitive-intelligence.md` — leitura comparativa de concorrentes e referências de mercado
 - `executive-reporting.md` — consolidação executiva de resultados, riscos e próximos passos
 - `action-prioritization.md` — ordenação de ações por impacto, dependência, risco e confiança

@@ -21,9 +21,19 @@ Quando o problema já estiver entendido e o valor estiver na forma de entrega:
 
 ## Templates atuais
 - `marketing-diagnosis.md`
+- `meta-health-score-output.md`
+- `ab-test-plan.md`
+- `media-plan.md`
+- `forecast-output.md`
+- `period-comparison.md`
 - `crm-reconciliation.md`
 - `sdr-analysis.md`
+- `lead-qualification.md`
+- `account-onboarding.md`
 - `competitive-intelligence.md`
+- `handoff-subagente.md`
+- `status-snapshot.md`
+- `response-modes.md`
 - `executive-report-output.md`
 - `action-prioritization-output.md`
 

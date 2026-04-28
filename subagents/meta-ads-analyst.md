@@ -15,7 +15,7 @@ Ler a conta Meta Ads como sistema completo, da estrutura ao criativo e do CPL de
 - estrutura de conta, campanha, conjunto e anúncio
 - segmentação, entrega, saturação e budget
 - mensagem, criativo, copy e aderência ao estágio do funil
-- cruzamento com CRM para CPL real, lead válido e avanço comercial
+- cruzamento com CRM, Sheets e operação para CPL real, lead operacionalmente válido e avanço comercial
 - decisão sobre escalar, pausar, manter, reestruturar ou pedir revisão fora da mídia
 
 ## Não fazer

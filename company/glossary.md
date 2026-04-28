@@ -5,8 +5,11 @@ Camada canônica de nomenclaturas essenciais da Blue Ocean.
 ## Funil e CRM
 | Termo | Definição |
 |-------|-----------|
-| Lead | Contato que entrou por algum canal ou funil e foi registrado no CRM |
-| Lead válido | Lead tecnicamente utilizável, recebido corretamente no CRM, sem falha crítica de captura e com contexto mínimo |
+| Lead | Contato que entrou por algum canal ou funil e foi registrado em alguma camada operacional confiável, como CRM, planilha de captura ou automação |
+| Lead estrutural | Entidade de lead registrada no CRM, útil para identidade, owner, pipeline, status e rastreabilidade estrutural |
+| Lead operacionalmente válido | Lead que passou pelo critério de validade do funil em questão, sem falha crítica de captura, duplicidade relevante ou ruído operacional conhecido |
+| Lead Real | No funil WhatsApp/CTWA, lead classificado como conversa efetiva ou contato operacionalmente válido, normalmente via `Status WhatsApp` no Kommo e/ou `LEAD REAL` na planilha `WHATSAPP` |
+| Lead Fantasma | No funil WhatsApp/CTWA, clique/conversa aparente ou lead criado sem conversa efetiva/validade operacional, que não deve entrar como volume válido |
 | Lead qualificado | Lead com aderência mínima de empresa, dor, estrutura e potencial real de avanço |
 | Misfit | Lead ou cliente sem aderência ao ICP da Blue Ocean |
 | Discovery | Etapa comercial de investigação profunda sobre modelo, dor, estrutura, budget, decisor e urgência |
@@ -63,7 +66,7 @@ Camada canônica de nomenclaturas essenciais da Blue Ocean.
 ## Métricas e força operacional
 | Termo | Definição |
 |-------|-----------|
-| CPL | Mídia dividida por leads válidos no CRM |
+| CPL | Mídia dividida por leads operacionalmente válidos no funil analisado; em CTWA, deve excluir Lead Fantasma |
 | CPAg | Mídia dividida por reuniões agendadas |
 | CPR | Mídia dividida por reuniões realizadas |
 | CAC de mídia | Mídia dividida por clientes ganhos atribuídos ao funil |
@@ -74,8 +77,11 @@ Camada canônica de nomenclaturas essenciais da Blue Ocean.
 
 ## Fonte de verdade
 - em métricas, CRM, avanço comercial e resultado, prevalece a fonte mais próxima do evento real
-- lead válido, qualificação, reunião, oportunidade, proposta e venda: CRM
+- spend, entrega e consumo de mídia: plataforma
+- entidade estrutural do lead, owner, pipeline e status vivo: CRM/Kommo, quando os campos críticos estão íntegros
+- validade operacional do topo: depende do funil; em WhatsApp/CTWA, separar sempre Lead Real de Lead Fantasma usando Kommo + planilha `WHATSAPP` quando disponíveis
+- reunião, próximos passos e leitura comercial diária: CRM e/ou planilha comercial, conforme integridade operacional comprovada no período
+- oportunidade, proposta e venda: CRM, com validação operacional quando houver divergência
 - receita: CRM, idealmente com validação financeira
-- performance de campanha: plataforma
 - saúde da conta: operação combinada com CRM e acompanhamento real
 - churn: operação combinada com CRM e registro de saída

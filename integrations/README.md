@@ -15,6 +15,7 @@ Cada integração documentada aqui deve esclarecer:
 ## Integrações atuais
 - `meta-ads.md`
 - `kommo.md`
+- `kommo-field-mapping.md`
 - `kommo-setup.md`
 - `google-sheets.md`
 - `google-sheets-setup.md`
@@ -36,3 +37,15 @@ Também deve ficar claro:
 - quando ela é fonte primária
 - quando ela é derivada
 - quais erros comuns de interpretação ela pode induzir
+
+
+## Especificações operacionais adicionadas
+- `whatsapp-ctwa-tracking.md` — arquitetura CTWA/micro-LP/source_id/Lead Real.
+- `n8n-whatsapp-ctwa.md` — fluxo n8n/Salesbot/Kommo sanitizado para CTWA.
+- `n8n-cpl-real.md` — workflow conceitual de CPL real e dashboard comercial.
+- `dashboard-derived-metrics.md` — fórmulas e regras de confiança para métricas derivadas.
+
+
+## Validação operacional viva
+- `live-integration-validation.md` — plano de prova de vida para MCPs, n8n, Kommo, Sheets, Meta Ads e dashboards.
+- `validation/` — registros sanitizados de validações reais.

@@ -63,6 +63,16 @@ Prioridade:
 - usar identificador único quando existir
 - usar combinação de nome + data + origem apenas com cautela
 
+Regra operacional importante:
+- a `CONTROLE DE LEADS GERAL` não deve ser tratada como uma única tabela homogênea
+- cada aba representa um funil/origem com schema e semântica próprios
+- antes de reconciliar, identificar em qual aba/funil o lead nasceu e qual é a regra de validade daquela aba
+
+Exemplos já confirmados:
+- `WHATSAPP`: unidade bruta = lead criado, unidade válida = `Lead Real`
+- `SAAS PADRÃO`: captura rica de contexto e tracking, mas nem toda linha tem `ID_LEAD`
+- `MVP`: leitura mais forte para perfil e qualificação do funil do que para reconciliação comercial final
+
 ### Etapa 3. Medir o que fecha e o que não fecha
 Classificar o cruzamento em níveis:
 - **Fecha bem**: maioria dos registros coerente entre marketing e comercial
@@ -82,6 +92,7 @@ A saída deve sempre informar:
 - o que é parcial
 - o que depende de validação adicional
 - qual camada prevaleceu na leitura
+- qual funil/aba foi usado e qual regra de validade foi aplicada
 
 ## Saída esperada
 ### 1. Integridade do stack
@@ -109,6 +120,7 @@ Exemplo:
 - marketing gera lead, mas a ponte para comercial está falhando
 - comercial está atualizando bem a planilha, mas CRM está subpreenchido
 - os números ainda não podem ser tratados como reconciliação final
+- o funil WhatsApp gera muito volume bruto, mas a leitura válida precisa filtrar `Lead Fantasma`
 
 ### 6. Próximas ações
 Exemplo:

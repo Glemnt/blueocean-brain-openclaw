@@ -49,8 +49,9 @@ Sempre conectar:
 
 ## Fonte de verdade por tipo de dado
 - entrega e spend: Meta Ads
-- lead válido: CRM
-- avanço comercial: CRM
+- entidade estrutural do lead: CRM/Kommo
+- lead operacionalmente válido: depende do funil e da reconciliação; em CTWA, exige separar Lead Real de Lead Fantasma
+- avanço comercial: CRM e/ou camada comercial mais íntegra no período
 - leitura executiva consolidada: depende de reconciliação
 
 ## Regras operacionais importantes

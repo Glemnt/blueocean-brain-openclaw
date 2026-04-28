@@ -47,6 +47,7 @@ coverage/
 # Local agent/runtime noise
 memory/
 .snapshots/
+snapshots/
 reports/
 sessions/
 archive/

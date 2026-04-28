@@ -4,15 +4,16 @@ Documentação canônica da integração Kommo dentro do `blueocean-brain-opencl
 
 ## Papel da integração
 Kommo é a base principal de leitura para:
-- lead válido
+- identidade estrutural do lead
 - avanço comercial
 - etapa do funil
 - owner comercial
 - qualificação
 - oportunidade
 - ganho, perda e motivo de perda
+- rastreabilidade entre lead, SDR e status operacional no CRM
 
-Quando o assunto é o que aconteceu com o lead depois da captação, o Kommo tende a prevalecer sobre dashboard e planilhas.
+Quando o assunto é o que aconteceu com o lead depois da captação, o Kommo tende a prevalecer sobre dashboard e planilhas, desde que os campos críticos estejam íntegros.
 
 ## O que a integração sabe bem
 Confiável para leitura direta quando o CRM está íntegro:
@@ -30,11 +31,13 @@ Confiável para leitura direta quando o CRM está íntegro:
 - receita, forecast e leitura executiva dependem de integridade da operação e reconciliação com outras fontes
 
 ## Fonte de verdade por tipo de dado
-- lead válido e avanço comercial: Kommo
-- pipeline e status: Kommo
+- existência estrutural do lead: Kommo
+- pipeline e status CRM: Kommo
 - owner e distribuição: Kommo
+- validade operacional do funil WhatsApp: Kommo + planilha `WHATSAPP` (via `Status WhatsApp` / `LEAD REAL`)
+- leitura comercial diária e próximos passos: planilhas comerciais, especialmente `Planilha Comercial x Marketing V.2`
 - dashboard consolidado: derivado, nunca verdade automática
-- planilhas: apoio operacional, não verdade final
+- planilhas: apoio operacional e leitura por funil, não substitutas automáticas do CRM
 
 ## Fluxo técnico resumido
 ### WhatsApp CTWA
@@ -76,13 +79,24 @@ Sem esses campos, a confiança da leitura cai.
 
 ## Regra de leitura
 Kommo prevalece quando a pergunta é:
-- o lead existiu de verdade?
+- o lead existiu estruturalmente?
 - quem recebeu?
 - em que etapa está?
 - avançou?
 - perdeu? por quê?
+- qual SDR/owner ficou responsável?
 
-Mas o Kommo não substitui a plataforma quando a pergunta é spend, entrega ou consumo de mídia.
+Mas o Kommo não substitui a plataforma quando a pergunta é spend, entrega ou consumo de mídia, e também não substitui sozinho a leitura operacional diária quando as planilhas carregam nuance humana, próximos passos e filtros específicos por funil.
+
+## Regra especial para WhatsApp
+No funil WhatsApp, não tratar qualquer lead criado no Kommo como lead válido automático.
+
+A leitura correta é:
+- volume bruto: leads criados
+- volume válido: leads com `Status WhatsApp = Lead Real`
+- volume de ruído: leads com `Status WhatsApp = Lead Fantasma`
+
+Essa distinção foi confirmada tanto na planilha `WHATSAPP` quanto no próprio Kommo.
 
 ## Relação com outras camadas
 - reconciliação e integridade: `playbooks/crm-reconciliation.md`

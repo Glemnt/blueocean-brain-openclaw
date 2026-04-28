@@ -49,3 +49,70 @@ Toda boa análise competitiva deveria conseguir responder:
 ## Regra final
 Referência competitiva útil não é a que parece mais bonita.
 É a que ajuda a Blue Ocean a pensar melhor sem perder o próprio posicionamento.
+
+## Scoring 4C para criativos concorrentes
+
+Avaliar de 1 a 5 cada eixo:
+
+| Eixo | Pergunta |
+|---|---|
+| Clareza | Entendo em 3 segundos o que é e para quem é? |
+| Credibilidade | Há prova específica ou só claim? |
+| Conversão | Existe CTA e próximo passo claros? |
+| Contexto | A peça conversa com momento, canal e ICP? |
+
+Leitura:
+
+- 17–20: referência forte, adaptar com cuidado.
+- 13–16: boa hipótese, precisa validação.
+- 9–12: aprendizado pontual.
+- <9: provavelmente ruído estético.
+
+## 8 dimensões para criativo estático
+
+1. Hook visual.
+2. Headline.
+3. Dor nomeada.
+4. Mecanismo.
+5. Prova.
+6. Oferta/CTA.
+7. Fit com ICP.
+8. Risco de promessa exagerada.
+
+## 10 dimensões para vídeo
+
+1. Hook nos 3 primeiros segundos.
+2. Retenção/ritmo.
+3. Clareza da dor.
+4. Mecanismo explicado.
+5. Demonstração/prova.
+6. Narrativa.
+7. CTA.
+8. Qualidade de produção suficiente.
+9. Aderência ao canal.
+10. Risco de atrair lead curioso.
+
+## Comparação de LPs
+
+Avaliar:
+
+- above the fold;
+- promessa;
+- prova;
+- mecanismo;
+- fricção;
+- FAQ/objeções;
+- CTA;
+- qualificação;
+- velocidade/mobile;
+- consistência com anúncio.
+
+## Regra de adaptação
+
+Nunca copiar literalmente. Classificar cada achado como:
+
+- adaptar agora;
+- testar com modificação;
+- monitorar;
+- evitar;
+- insuficiente para concluir.

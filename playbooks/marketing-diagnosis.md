@@ -114,7 +114,7 @@ Priorizar quando aparecer:
 - `Padrão 3: creative fatigue`
 - `Padrão 4: fantasma dominante`
 - `Padrão 5: stack invisível`
-- `Padrão 13: atribuição fantasma`
+- `Padrão 12: atribuição fantasma`
 
 Referenciar o padrão quando houver sintomas suficientes, mas sem transformar padrão em prova final.
 

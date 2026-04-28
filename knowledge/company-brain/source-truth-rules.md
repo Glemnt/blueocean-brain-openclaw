@@ -24,6 +24,13 @@ Fato validado pelo site pode servir como contexto, desde que não conflite com v
 ### Métricas, CRM, avanço comercial, funil e resultado
 Prevalece a fonte mais próxima do evento real.
 
+Aplicações importantes:
+- plataforma prevalece para spend, entrega e consumo de mídia;
+- Kommo/CRM prevalece para entidade estrutural do lead, owner, pipeline e status vivo quando os campos críticos estão íntegros;
+- validade operacional do topo depende do funil; em WhatsApp/CTWA, separar sempre Lead Real de Lead Fantasma;
+- Sheets pode prevalecer em leitura comercial diária quando estiver mais íntegro que o CRM para reuniões, próximos passos ou acompanhamento operacional;
+- dashboard é visualização derivada e nunca deve prevalecer sozinho sobre a fonte operacional mais próxima.
+
 ### Conflito entre classes fortes
 - explicitar o conflito
 - reduzir a força da conclusão

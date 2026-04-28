@@ -75,8 +75,9 @@ Se faltarem dados obrigatórios, pedir apenas o mínimo faltante.
 | problema aberto, sem domínio claro | este playbook continua conduzindo |
 | queda de performance ou dúvida de mídia | `marketing-diagnosis.md` |
 | conflito entre CRM, dashboard, plataforma ou tracking | `crm-reconciliation.md` |
-| risco de conta, handoff, escopo ou retenção | playbook operacional futuro ou análise guiada por `governance/` + `knowledge/matrices/` |
-| dúvida de ownership, aprovação, exceção ou violação | análise guiada por `governance/` + `knowledge/matrices/` |
+| falha provável de webhook, automação, n8n, tracking ou dashboard derivado | `stack-failure-triage.md` |
+| risco de conta, handoff, escopo ou retenção | `account-risk.md` |
+| dúvida de ownership, aprovação, exceção ou violação | `governance-escalation.md` |
 
 Se ainda não houver playbook específico, usar a camada canônica e as referências da knowledge base.
 
@@ -113,3 +114,6 @@ A saída deve sempre informar:
 - `knowledge/matrices/governance-triggers-matrix.md`
 - `knowledge/patterns/diagnostic-patterns.md`
 - `knowledge/company-brain/source-truth-rules.md`
+- `playbooks/account-risk.md`
+- `playbooks/governance-escalation.md`
+- `playbooks/stack-failure-triage.md`

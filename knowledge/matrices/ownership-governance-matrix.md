@@ -24,15 +24,15 @@ Matriz detalhada de ownership e governança por tema.
 - classificação: rotina tática com cautela
 - ação inicial: validar CRM e fundo antes de decidir
 
-### Lead válido no CRM
+### Lead operacionalmente válido
 - owner: comercial
 - co-owner: stack e marketing
 - executa: comercial ou automação
 - aprova: gestor comercial se houver falha recorrente
-- sobe para gestor: quando owner ou origem falham
+- sobe para gestor: quando owner, origem ou critério de validade falham
 - sobe para liderança: quando contamina decisão executiva
 - classificação: governança de dado
-- ação inicial: validar entrada, owner e contexto
+- ação inicial: validar entrada, owner, contexto e regra de validade do funil
 
 ### Oportunidade
 - owner: comercial

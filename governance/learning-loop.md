@@ -74,3 +74,32 @@ Memória local ajuda a operar.
 Canon versionado ajuda a preservar inteligência.
 
 Os dois coexistem, mas não cumprem o mesmo papel.
+
+## Gatilhos práticos de melhoria
+
+Durante qualquer diagnóstico, o agente deve procurar oportunidades concretas de melhoria, sem interromper o fluxo.
+
+Sugerir atualização quando notar:
+
+- dado que falta sempre e deveria entrar em template;
+- regra canônica ambígua;
+- benchmark com confiança frágil;
+- integração que exige cálculo manual repetido;
+- padrão operacional não documentado;
+- red line que não aparece em playbook;
+- eval que protegeria contra erro recorrente.
+
+## Limite de sugestão
+
+- Máximo 2 sugestões por resposta.
+- Não repetir sugestão ignorada na mesma conversa.
+- Preferir sugestão implementável agora.
+- Não transformar todo insight em burocracia.
+
+## Formato recomendado
+
+```text
+Oportunidade de melhoria: [descrição curta]
+Se consolidarmos isso em [arquivo/camada], o sistema passa a [benefício].
+Quer que eu implemente?
+```

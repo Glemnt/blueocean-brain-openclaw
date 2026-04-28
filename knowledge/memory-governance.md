@@ -72,3 +72,47 @@ Antes de deixar algo só na memória local, perguntar:
 "Isso ajuda apenas agora ou deveria continuar ensinando o sistema depois?"
 
 Se deveria continuar ensinando, precisa virar arquivo versionado.
+
+## Regras herdadas de operação do agente
+
+A migração preserva a intenção do legado Claude Code, mas em forma OpenClaw-native.
+
+### Quando sugerir salvar aprendizado
+
+Sugerir consolidação quando uma interação gerar:
+
+- benchmark real novo;
+- diagnóstico com valor histórico;
+- padrão repetido;
+- mudança de SDR, campanha, pipeline, source_id ou campo;
+- regra que evitou erro;
+- lacuna de template/schema;
+- fragilidade de integração recorrente.
+
+### Onde salvar
+
+| Aprendizado | Destino OpenClaw |
+|---|---|
+| Snapshot bruto/local | fora do git ou `snapshots/` local |
+| Evidência curada datada | `history/` |
+| Benchmark validado | `knowledge/benchmarks/` |
+| Padrão diagnóstico | `knowledge/patterns/` |
+| Regra operacional | `governance/` ou `playbooks/` |
+| Integração/stack | `integrations/` |
+| Campo/schema | `schemas/` |
+
+### Regra de autorização
+
+- Não promover dado sensível, PII, token, export bruto ou conversa privada.
+- Mudanças canônicas relevantes devem ser explicitadas ao usuário.
+- Evidência histórica deve ser sanitizada e datada.
+
+### Continuidade de sessão
+
+No OpenClaw, continuidade deve usar:
+
+- memória local para contexto transitório;
+- `MIGRATION_PROGRESS.md` ou trackers explícitos para migrações;
+- `history/` para evidência curada;
+- `templates/handoff-subagente.md` para passagem entre especialistas;
+- TaskFlow/cron apenas quando houver trabalho durável ou espera real.

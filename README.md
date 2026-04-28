@@ -38,6 +38,7 @@ Se você está chegando agora, a leitura recomendada é:
 9. `playbooks/README.md`
 10. `subagents/README.md`
 11. `templates/README.md`
+12. `evals/README.md`
 
 ## Estrutura
 - `company/` — identidade, ofertas, ICP e glossário operacional
@@ -47,14 +48,34 @@ Se você está chegando agora, a leitura recomendada é:
 - `subagents/` — especialistas OpenClaw por domínio
 - `integrations/` — documentação de integrações reais e seus limites
 - `templates/` — templates enxutos para entradas e saídas recorrentes
+- `schemas/` — contratos profundos de input para análises recorrentes
+- `evals/` — cenários de regressão para proteger decisões e armadilhas críticas
+- `history/` — evidência histórica curada, sanitizada e datada
+- `projects/` — blueprints estruturais multi-camada
+- `security/` — checklist e scans de segurança pré-commit
+- `scripts/` — validações locais de evals e segurança
+- `MIGRATION_PROGRESS.md` — acompanhamento da migração funcional até 100%
 
 ## Playbooks atuais
 - `playbooks/triage.md`
 - `playbooks/marketing-diagnosis.md`
+- `playbooks/meta-ads-formal-audit.md`
+- `playbooks/creative-inventory.md`
+- `playbooks/ab-test-design.md`
+- `playbooks/google-ads-diagnosis.md`
+- `playbooks/media-planning.md`
+- `playbooks/forecasting.md`
+- `playbooks/period-comparison.md`
 - `playbooks/crm-reconciliation.md`
+- `playbooks/sheets-commercial-reconciliation.md`
 - `playbooks/stack-failure-triage.md`
+- `playbooks/lead-fantasma-triage.md`
+- `playbooks/lead-qualification.md`
 - `playbooks/account-risk.md`
+- `playbooks/account-onboarding.md`
+- `playbooks/sales-to-ops-handoff-review.md`
 - `playbooks/governance-escalation.md`
+- `playbooks/process-institutionalization-audit.md`
 - `playbooks/competitive-intelligence.md`
 - `playbooks/executive-reporting.md`
 - `playbooks/action-prioritization.md`
@@ -68,9 +89,19 @@ Se você está chegando agora, a leitura recomendada é:
 
 ## Templates atuais
 - `templates/marketing-diagnosis.md`
+- `templates/meta-health-score-output.md`
+- `templates/ab-test-plan.md`
+- `templates/media-plan.md`
+- `templates/forecast-output.md`
+- `templates/period-comparison.md`
 - `templates/crm-reconciliation.md`
 - `templates/sdr-analysis.md`
+- `templates/lead-qualification.md`
+- `templates/account-onboarding.md`
 - `templates/competitive-intelligence.md`
+- `templates/handoff-subagente.md`
+- `templates/status-snapshot.md`
+- `templates/response-modes.md`
 - `templates/executive-report-output.md`
 - `templates/action-prioritization-output.md`
 
@@ -91,3 +122,14 @@ Este repositório novo existe para:
 - corrigir acoplamentos do runtime anterior
 - simplificar a operação em OpenClaw
 - servir como base principal e evolutiva do brain
+
+## Revisão de cobertura
+- `MIGRATION_COVERAGE_REVIEW.md` — revisão final da migração legado Claude Code → OpenClaw, incluindo o que foi migrado, enriquecido e excluído intencionalmente.
+- `history/legacy-design-lineage.md` — linhagem do system prompt e princípios antigos em forma segura e OpenClaw-native.
+
+
+## Uso operacional
+- `OPERATOR_GUIDE.md` — guia curto de qual rota usar para cada tipo de pedido.
+- `REPO_INDEX_BY_QUESTION.md` — índice por pergunta/domínio.
+- `ROBUSTNESS_HARDENING_LOG.md` — registro das correções de robustez pós-auditoria.
+- `INFRA_ROBUSTNESS_AUDIT.md` — auditoria de robustez da infra documental/operacional.

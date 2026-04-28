@@ -108,3 +108,16 @@ Quando a causa principal estiver fora da copy:
 - `company/icp.md`
 - `knowledge/company-brain/source-truth-rules.md`
 - `knowledge/patterns/diagnostic-patterns.md`
+
+## Referências de copy migradas do legado
+
+Para frameworks profundos de LP, email/SMS, WhatsApp, vídeo, conteúdo longo e estruturas AIDA/PAS/BAB/4P/FAB/PASTOR/StoryBrand, consultar `knowledge/copy/frameworks.md`.
+
+O subagente deve usar esses frameworks como repertório, mas sempre preservar:
+
+- promessa qualificada;
+- fit com ICP SaaS B2B;
+- CTA com ação + benefício;
+- prova proporcional;
+- filtro contra lead curioso;
+- red lines de escopo e resultado garantido.

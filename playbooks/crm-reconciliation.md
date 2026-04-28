@@ -93,7 +93,10 @@ Regra geral: prevalece a fonte mais próxima do evento real.
 
 Exemplos:
 - spend e entrega de campanha: plataforma
-- lead válido, qualificação, oportunidade e avanço comercial: CRM
+- entidade estrutural do lead, owner, pipeline e status vivo: CRM/Kommo, se os campos críticos estiverem íntegros
+- validade operacional do topo: depende do funil; em WhatsApp/CTWA, separar Lead Real de Lead Fantasma antes de calcular volume válido ou CPL real
+- qualificação, oportunidade e avanço comercial: CRM, com ressalva quando a operação comercial diária estiver mais íntegra em planilha validada
+- reuniões, próximos passos e leitura comercial diária: CRM ou Sheets, conforme a camada mais bem mantida no período analisado
 - dashboard: visualização derivada, nunca verdade final por si só
 - receita e churn: CRM com validação operacional ou financeira quando necessário
 - saúde da conta: operação real combinada com CRM

@@ -130,11 +130,7 @@ blueocean-brain-openclaw/
 ├─ history/                 — 3 arquivos: evidência curada e sanitizada
 ├─ projects/                — 2 arquivos: blueprints estruturais
 ├─ security/                — 2 arquivos: checklist e política pré-commit
-├─ scripts/                 — 2 arquivos: harness e safety scanner
-├─ archive/                 — 0 arquivos: reservado para arquivo morto
-├─ reports/                 — 0 arquivos: reservado para relatórios sanitizados
-├─ sessions/                — 0 arquivos: reservado para sessões sanitizadas
-└─ snapshots/               — 0 arquivos: reservado para snapshots sanitizados
+└─ scripts/                 — 2 arquivos: harness e safety scanner
 ```
 
 ## 7. Instalação e setup
@@ -201,8 +197,6 @@ openclaw doctor
 | Canal | Status | Uso |
 |---|---|---|
 | Telegram DM | Ativo | Canal direto autorizado para falar com o agente. |
-| WhatsApp | Não ativo na configuração inspecionada | Documentado como rota operacional via Z-API/CTWA, não como canal OpenClaw ativo. |
-| Web/TUI local | Disponível via OpenClaw CLI | Útil para operação local e diagnóstico. |
 
 ### Slash commands principais
 
@@ -235,15 +229,16 @@ Faça uma análise competitiva de 3 concorrentes B2B SaaS. Compare proposta, lan
 
 ## 9. Skills, knowledge e rules
 
-| Camada | Contagem real | Status | Descrição |
-|---|---:|---|---|
-| `skills/` | 0 | Não existe no repo | Não há skills OpenClaw versionadas aqui; o uso atual está em playbooks, subagentes e comandos nativos. |
-| `knowledge/` | 23 | Ativa | Contexto de negócio, benchmarks, padrões, matrizes, workflows, copy e inteligência competitiva. |
-| `rules/` | 0 | Não existe no repo | Regras vivem em `AGENTS.md`, `governance/`, `security/` e `SOUL.md`. |
-| `templates/` | 17 | Ativa | Outputs, handoffs, relatórios, snapshots, planos e formatos de resposta. |
-| `prompts/` | 0 | Não existe no repo | A instrução principal está em `AGENTS.md` e a persona em `SOUL.md`. |
-| `hooks/` | 0 | Não existe no repo | Hooks não estão versionados neste repositório. |
-| `workflows/` | 4 | Em `knowledge/workflows/` | Checklists e rotinas operacionais documentadas. |
+| Camada | Contagem real | Descrição |
+|---|---:|---|
+| `knowledge/` | 23 | Contexto de negócio, benchmarks, padrões, matrizes, workflows, copy e inteligência competitiva. |
+| `governance/` | 8 | Regras de decisão, confiança, ownership, red lines e política de evidência. |
+| `templates/` | 17 | Outputs, handoffs, relatórios, snapshots, planos e formatos de resposta. |
+| `subagents/` | 6 | README + 5 especialistas por domínio operacional. |
+| `playbooks/` | 24 | Fluxos canônicos para diagnóstico, forecast, reconciliação, reporting e governança. |
+| `knowledge/workflows/` | 4 | Checklists e rotinas operacionais documentadas. |
+
+Ausências verificadas: não há pastas `skills/`, `rules/`, `prompts/` ou `hooks/` versionadas neste repositório. A instrução principal está em `AGENTS.md`; a persona está em `SOUL.md`; regras operacionais vivem em `governance/` e `security/`.
 
 Índices existentes: `REPO_INDEX_BY_QUESTION.md`, `OPERATOR_GUIDE.md`, `knowledge/README.md`, `templates/README.md`, `evals/eval-manifest.md`.
 
@@ -356,7 +351,6 @@ Esta seção é mantida manualmente — atualize ao concluir itens.
 | TODO: validar MCP Google Sheets com prova viva versionada em `integrations/validation/`. | Pendente |
 | TODO: validar MCP Kommo com prova viva sanitizada. | Pendente |
 | TODO: formalizar ativação Google Ads quando a operação sair do preparatório. | Pendente |
-| TODO: definir score numérico formal do agente, se necessário. | Pendente |
 
 ### Pendências conhecidas
 
@@ -364,7 +358,6 @@ Esta seção é mantida manualmente — atualize ao concluir itens.
 |---|---|
 | TODO: inserir site oficial da Blue Ocean SEM na seção de contato. | Pendente |
 | TODO: confirmar política final de licença caso deixe de ser MIT. | Pendente |
-| TODO: documentar rotina real de backup após definição operacional. | Pendente |
 
 ## 14. Contribuição
 

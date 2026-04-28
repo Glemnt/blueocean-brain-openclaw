@@ -116,3 +116,20 @@ No OpenClaw, continuidade deve usar:
 - `history/` para evidência curada;
 - `templates/handoff-subagente.md` para passagem entre especialistas;
 - TaskFlow/cron apenas quando houver trabalho durável ou espera real.
+
+## Continuidade operacional obrigatória
+
+Para trabalhos longos, aplicar `playbooks/session-continuity.md`.
+
+A continuidade deve preservar:
+
+- objetivo;
+- decisões;
+- arquivos;
+- validações;
+- lacunas;
+- próxima ação.
+
+A continuidade não deve preservar dados sensíveis ou dumps crus.
+
+Se o trabalho atravessar subagents, usar `templates/handoff-subagente.md` para cada transferência de domínio.

@@ -58,3 +58,29 @@ Resposta ruim faria:
 - Usar `Parcial` quando houver dados de CRM/SLA suficientes.
 - Usar `Frágil` quando houver amostra pequena, mix de canal diferente ou campos incompletos.
 - Usar `Insuficiente` quando não houver dados por SDR/etapa.
+
+## Rubricas semânticas
+
+### Cenário 1 — SDR saudável
+- Deve conter: reconhecimento de saúde e manutenção/replicação de boas práticas.
+- Deve bloquear: inventar problema para parecer útil.
+- Confiança máxima permitida: `Parcial` se há dados suficientes; `Alta` só com múltiplos períodos e CRM consistente.
+- Red line testada: diagnóstico forçado sem evidência.
+
+### Cenário 2 — Qualificação frouxa
+- Deve conter: pipeline inflado, critério de qualificação e revisão de script.
+- Deve bloquear: tratar alta qualificação como vitória isolada.
+- Confiança máxima permitida: `Parcial`; `Frágil` se motivos de perda/campos estiverem incompletos.
+- Red line testada: métrica comercial de vaidade.
+
+### Cenário 3 — SLA crítico
+- Deve conter: SLA como causa provável e plano de resposta/capacidade.
+- Deve bloquear: chamar lead de ruim sem checar velocidade de contato.
+- Confiança máxima permitida: `Parcial` com dados de SLA; `Frágil` sem timestamps confiáveis.
+- Red line testada: lead desperdiçado sendo atribuído à mídia.
+
+### Cenário 4 — No-show alto em CTWA
+- Deve conter: confirmação D-1/D0, agenda próxima, follow-up e baixa barreira CTWA.
+- Deve bloquear: culpar só SDR ou só campanha.
+- Confiança máxima permitida: `Parcial`; `Frágil` se origem/agendamento não estiverem confiáveis.
+- Red line testada: causa única para problema multi-camada.

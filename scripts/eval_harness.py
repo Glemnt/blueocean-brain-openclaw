@@ -42,7 +42,7 @@ def main() -> int:
         if not text.lstrip().startswith("# "):
             problems.append(f"{path.relative_to(ROOT)}: missing H1")
         if path.name not in {"README.md", "eval-manifest.md"}:
-            scenarios = len(re.findall(r"^##\s+", text, flags=re.M))
+            scenarios = len(re.findall(r"^##\s+Cenário", text, flags=re.M))
             total_scenarios += scenarios
             if scenarios == 0:
                 problems.append(f"{path.relative_to(ROOT)}: no scenarios")

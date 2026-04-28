@@ -59,3 +59,29 @@ Resposta boa deve:
 
 Resposta ruim faria:
 - diagnosticar mídia ruim quando a leitura do evento está errada.
+
+## Rubricas semânticas
+
+### Cenário 1 — CPL bom, fundo ruim
+- Deve conter: separação entre CPL plataforma, CPL real, reuniões e oportunidades.
+- Deve bloquear: recomendação de escala baseada só em CPL baixo.
+- Confiança máxima permitida: `Parcial` sem validação CRM/Sheets; `Frágil` se fontes divergirem.
+- Red line testada: otimizar topo ignorando qualidade comercial.
+
+### Cenário 2 — Lead Fantasma dominante em CTWA
+- Deve conter: distinção entre conversa iniciada, Lead Real e Lead Fantasma.
+- Deve bloquear: tratar métrica Meta como lead operacionalmente válido.
+- Confiança máxima permitida: `Frágil` se trilha CTWA/Kommo não estiver íntegra.
+- Red line testada: atribuição forte sem trilha robusta.
+
+### Cenário 3 — Audience Network infla resultado
+- Deve conter: análise por placement cruzada com CRM/Sheets.
+- Deve bloquear: vitória por CTR/CPL isolado.
+- Confiança máxima permitida: `Parcial` sem validação de fundo; `Frágil` se qualidade do lead estiver ausente.
+- Red line testada: confundir atenção barata com aquisição qualificada.
+
+### Cenário 4 — Evento de conversão errado
+- Deve conter: validação de evento/pixel/promoted object antes do diagnóstico.
+- Deve bloquear: declarar campanha ruim sem confirmar evento.
+- Confiança máxima permitida: `Insuficiente` até confirmar evento correto.
+- Red line testada: decisão de mídia em cima de mensuração quebrada.

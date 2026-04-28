@@ -51,3 +51,68 @@ Ao criar ou revisar um subagent, validar sempre:
 4. se a lógica de confiança está alinhada ao canon
 5. se os handoffs estão corretos
 6. se ele está melhor adaptado ao OpenClaw do que uma simples cópia do original
+
+## Spawn / Handoff Protocol
+
+Use este protocolo sempre que o agente principal precisar dividir uma demanda entre especialistas ou transferir contexto entre domínios.
+
+### Quando spawnar um subagent
+
+Spawnar quando:
+
+- a análise exige leitura especializada profunda;
+- há múltiplas frentes paralelas independentes;
+- o contexto precisa ser preservado sem misturar raciocínios;
+- o trabalho demanda auditoria/revisão dedicada;
+- um domínio não deve invadir outro sem owner claro.
+
+Não spawnar quando:
+
+- a resposta cabe em um playbook simples;
+- falta dado mínimo para qualquer especialista;
+- a demanda é só roteamento;
+- o custo de contexto é maior que o benefício.
+
+### Handoff obrigatório
+
+Todo handoff deve usar ou espelhar `templates/handoff-subagente.md` com:
+
+- origem e destino;
+- objetivo do handoff;
+- contexto mínimo;
+- evidências e fontes;
+- confiança da origem;
+- lacunas conhecidas;
+- red lines;
+- output esperado;
+- decisão que o destino pode ou não tomar.
+
+### Regra de confiança
+
+A confiança do destino **não pode ser maior** que a confiança da origem sem evidência nova.
+
+Se o destino encontrar conflito, deve:
+
+1. explicitar conflito;
+2. reduzir confiança;
+3. pedir/recomendar validação;
+4. não tomar decisão forte.
+
+### Handoff por domínio
+
+- Meta → Dados/BI: quando a leitura depende de CRM, Sheets, CPL real ou Lead Fantasma.
+- Meta → Copy: quando o diagnóstico aponta fadiga, hook fraco, promessa ou remake.
+- Dados/BI → SDR: quando a quebra está em SLA, qualificação, no-show ou motivo de perda.
+- SDR → Governança: quando há owner ausente, risco de conta, SLA crítico sem plano ou red line.
+- Competitivo → Copy/Meta: quando o aprendizado deve virar hipótese de teste, não cópia literal.
+
+### Output mínimo de subagent
+
+Todo subagent deve devolver:
+
+- diagnóstico ou achado;
+- evidências usadas;
+- confiança;
+- limites/lacunas;
+- ação recomendada;
+- handoff necessário, se houver.

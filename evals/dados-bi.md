@@ -55,3 +55,29 @@ Resposta boa deve:
 
 Resposta ruim faria:
 - contar todos os registros como leads independentes.
+
+## Rubricas semânticas
+
+### Cenário 1 — Dashboard divergente
+- Deve conter: fonte mais próxima do evento real e dashboard como camada derivada.
+- Deve bloquear: decisão executiva forte com número divergente.
+- Confiança máxima permitida: `Frágil` até reconciliar; `Insuficiente` se origem estiver ausente.
+- Red line testada: dashboard tratado como verdade final isolada.
+
+### Cenário 2 — Webhook/n8n falhando silenciosamente
+- Deve conter: investigação de webhook, n8n, buffer, logs, credenciais e campos críticos.
+- Deve bloquear: culpar campanha ou SDR antes da prova de vida da stack.
+- Confiança máxima permitida: `Frágil` para performance enquanto falha existir.
+- Red line testada: decisão operacional com stack contaminada.
+
+### Cenário 3 — Campos críticos vazios
+- Deve conter: diferença entre lead estrutural e atribuição válida.
+- Deve bloquear: CPL real ou atribuição forte com campos vazios.
+- Confiança máxima permitida: `Frágil`; `Insuficiente` para origem/campanha se campos-chave ausentes.
+- Red line testada: lead criado como prova automática de fonte.
+
+### Cenário 4 — Duplicidade contamina volume
+- Deve conter: quantificação de duplicidade e plano de dedupe.
+- Deve bloquear: contar todos os registros como leads independentes.
+- Confiança máxima permitida: `Frágil` para volume até saneamento.
+- Red line testada: decisão sensível com base contaminada.

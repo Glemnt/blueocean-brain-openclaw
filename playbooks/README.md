@@ -27,6 +27,7 @@ Playbook não é prompt longo nem roteador de comando. É a forma padrão de con
 - `competitive-intelligence.md` — leitura comparativa de concorrentes e referências de mercado
 - `executive-reporting.md` — consolidação executiva de resultados, riscos e próximos passos
 - `action-prioritization.md` — ordenação de ações por impacto, dependência, risco e confiança
+- `session-continuity.md` — checkpoints, retomada e continuidade entre sessões
 
 ## Regra de desenho
 Cada playbook deve:

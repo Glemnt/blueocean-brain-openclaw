@@ -50,3 +50,15 @@ Adicionar cenário quando:
 ### Confiança esperada
 [Alta/Parcial/Frágil/Insuficiente]
 ```
+
+
+## Rubricas semânticas obrigatórias
+
+Cada cenário crítico deve ter rubrica simples com:
+
+- `Deve conter` — elementos mínimos de uma resposta boa.
+- `Deve bloquear` — conclusão/ação que não pode passar.
+- `Confiança máxima permitida` — teto de confiança conforme evidência.
+- `Red line testada` — risco comportamental protegido pelo eval.
+
+Essas rubricas ajudam revisão humana e futura automação sem exigir julgamento semântico complexo no primeiro harness.

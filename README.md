@@ -79,6 +79,7 @@ Se você está chegando agora, a leitura recomendada é:
 - `playbooks/competitive-intelligence.md`
 - `playbooks/executive-reporting.md`
 - `playbooks/action-prioritization.md`
+- `playbooks/session-continuity.md`
 
 ## Subagents atuais
 - `subagents/meta-ads-analyst.md`

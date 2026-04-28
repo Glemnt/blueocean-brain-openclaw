@@ -7,7 +7,7 @@ Eles não substituem a governança central. Eles operam dentro dela.
 ## Princípios
 - herdam governança global do repositório
 - são especializados por domínio real, não por ferramenta apenas
-- devem ser menores e mais canônicos que os prompts do repositório original
+- devem ser curtos, canônicos e operacionais
 - devem apontar para playbooks e knowledge em vez de duplicar tudo
 - precisam deixar claro quando usar, quando bloquear e para onde fazer handoff
 
@@ -50,7 +50,7 @@ Ao criar ou revisar um subagent, validar sempre:
 3. se a entrada e a saída esperadas estão claras
 4. se a lógica de confiança está alinhada ao canon
 5. se os handoffs estão corretos
-6. se ele está melhor adaptado ao OpenClaw do que uma simples cópia do original
+6. se ele está claro, acionável e aderente à governança central
 
 ## Spawn / Handoff Protocol
 

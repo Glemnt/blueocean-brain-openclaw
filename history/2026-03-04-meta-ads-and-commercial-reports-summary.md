@@ -2,7 +2,7 @@
 
 ## Status
 
-Resumo sanitizado de relatórios históricos do legado. Arquivos HTML/PDF/exports crus não foram migrados literalmente.
+Resumo sanitizado de relatórios históricos. Arquivos HTML/PDF/exports crus não devem ser versionados literalmente.
 
 ## Aprendizados de arquitetura
 

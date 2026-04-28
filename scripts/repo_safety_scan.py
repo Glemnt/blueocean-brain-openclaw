@@ -29,7 +29,6 @@ ALLOW_CONCEPT_FILES = {
     "integrations/kommo-field-mapping.md",
     "schemas/whatsapp-redirect-event.md",
     "history/README.md",
-    "INFRA_ROBUSTNESS_AUDIT.md",
 }
 
 

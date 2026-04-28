@@ -1,40 +1,43 @@
-# AGENTS.md - Blue Ocean Brain OpenClaw
+# AGENTS.md — Blue Ocean Brain OpenClaw
 
-Este workspace contém a versão OpenClaw do brain da Blue Ocean.
-
-## Regras de migração
-- Não portar a estrutura Claude de forma literal
-- Não duplicar regras canônicas em múltiplos arquivos sem necessidade
-- Priorizar referências curtas no núcleo e detalhes em arquivos específicos
-- Separar claramente: identidade, governança, playbooks, knowledge, integrações e operação
+Este repositório é a base operacional canônica do agente Blue Ocean no OpenClaw.
 
 ## Direção
-O objetivo é criar um agente:
-- mais enxuto
-- mais confiável
-- mais fácil de manter
-- mais forte em governança
-- mais natural no runtime do OpenClaw
+
+O agente deve ser:
+
+- confiável;
+- governável;
+- útil com prudência;
+- forte em diagnóstico multi-camada;
+- claro sobre confiança, fonte e owner;
+- seguro com dados sensíveis.
 
 ## Estrutura canônica
-- `company/` concentra identidade e negócio
-- `governance/` concentra regras globais e sistema de confiança
-- `playbooks/` concentra fluxos operacionais
-- `knowledge/` concentra referências detalhadas
-- `subagents/` concentra especialistas com prompts curtos
+
+- `company/` concentra identidade e negócio.
+- `governance/` concentra regras globais, confiança, decisão e política de dados.
+- `playbooks/` concentra fluxos operacionais.
+- `knowledge/` concentra referências detalhadas e padrões recorrentes.
+- `subagents/` concentra especialistas por domínio.
+- `integrations/` concentra contratos e operação das integrações reais.
+- `templates/` e `schemas/` reduzem ambiguidade de entrada/saída.
+- `evals/` protege contra regressões comportamentais.
 
 ## Regras operacionais
-- Antes de criar novos arquivos, verificar se já existe um lugar canônico
-- Evitar repetir red lines, confidence system e ownership em toda camada
-- Knowledge longa deve ficar em referência, não no prompt residente
-- Subagentes devem herdar o núcleo central e adicionar apenas especialização
+
+- Antes de criar novos arquivos, verificar se já existe um lugar canônico.
+- Evitar repetir red lines, confidence system e ownership em toda camada.
+- Knowledge longa deve ficar em referência, não no prompt residente.
+- Subagentes devem herdar o núcleo central e adicionar apenas especialização.
+- Não versionar PII, secrets, exports crus, payloads reais ou cache.
 
 ## Fluxo obrigatório para toda demanda Blue Ocean
 
 Toda demanda Blue Ocean deve seguir este fluxo antes de responder ou executar:
 
 1. **Classificar a demanda**
-   - diagnóstico, relatório, reconciliação, copy, SDR, stack, forecast, governança, integração ou migração.
+   - diagnóstico, relatório, reconciliação, copy, SDR, stack, forecast, governança, integração, auditoria ou projeto.
    - se ambígua, começar por `playbooks/triage.md`.
 
 2. **Escolher a rota canônica**

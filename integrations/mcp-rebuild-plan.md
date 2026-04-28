@@ -6,7 +6,7 @@ Plano técnico de reconstrução da camada MCP da Blue Ocean para operação alw
 ### Confirmado
 - o OpenClaw atual não tem MCPs configurados
 - os endpoints locais antigos não estão respondendo
-- a pasta `.mcp-servers/` esperada pelo repositório original não existe neste host
+- não há dependência operacional de `.mcp-servers/` neste host
 - a documentação de uso e a lógica analítica continuam válidas
 - o bloqueio atual é infraestrutura, não arquitetura do brain
 

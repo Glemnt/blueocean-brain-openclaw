@@ -5,7 +5,7 @@ Use antes de commitar/pushar mudanças do Blue Ocean Brain.
 ## 1. Escopo
 
 - [ ] O diff é intencional?
-- [ ] Não há cópia em massa do legado?
+- [ ] Não há importação em massa de material externo ou bruto?
 - [ ] Arquivos protegidos modificados foram revisados conscientemente?
 - [ ] Novos arquivos têm destino correto por camada?
 
@@ -16,10 +16,10 @@ Use antes de commitar/pushar mudanças do Blue Ocean Brain.
 - [ ] Sem nomes, emails, telefones, documentos ou listas de leads/clientes.
 - [ ] Evidência histórica está sanitizada e datada.
 
-## 3. OpenClaw-native
+## 3. Arquitetura operacional
 
-- [ ] Não depende de `.claude/`, slash-command ou MCP local antigo para operar.
-- [ ] Prompts antigos viraram canon/playbook/schema/template, não system prompt colado.
+- [ ] Não depende de runtime externo/local frágil para operar.
+- [ ] Instruções importantes estão em canon/playbook/schema/template, não em prompt solto.
 - [ ] Integrações vivas ficam fora do repo quando exigem segredo.
 
 ## 4. Qualidade

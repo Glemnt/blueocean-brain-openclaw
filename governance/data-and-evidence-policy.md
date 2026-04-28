@@ -112,7 +112,7 @@ Nunca:
 - commitar base de leads/clientes;
 - commitar export bruto com PII;
 - usar evidência datada como canon sem revisão;
-- copiar diretórios legados inteiros por conveniência;
+- importar diretórios externos inteiros por conveniência;
 - publicar dados sensíveis para “facilitar análise”.
 
 ## Como sanitizar evidência
@@ -160,7 +160,7 @@ Antes de adicionar um arquivo ao repo, perguntar:
 1. Isso é canon, evidência curada ou dado bruto?
 2. Contém PII, secrets ou payloads reais?
 3. Ajuda o brain de forma recorrente?
-4. Está escrito para OpenClaw, sem dependência do runtime legado?
+4. Está escrito para OpenClaw, sem dependência de runtime externo frágil?
 5. Se alguém ler isso daqui a meses, vai entender o escopo e a confiança?
 
 Se qualquer resposta expuser risco, não versionar ainda.

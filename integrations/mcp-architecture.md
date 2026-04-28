@@ -10,7 +10,7 @@ Garantir que o agente consiga:
 - evitar dependência de scripts locais, localhost de notebook ou sessão manual
 
 ## Diagnóstico do modelo anterior
-O repositório original assumia:
+A operação não deve depender de:
 - MCPs locais rodando em `localhost`
 - pasta `.mcp-servers/` presente no ambiente
 - start manual via `./start-mcps.sh`

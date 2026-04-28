@@ -109,7 +109,7 @@ Quando a causa principal estiver fora da copy:
 - `knowledge/company-brain/source-truth-rules.md`
 - `knowledge/patterns/diagnostic-patterns.md`
 
-## Referências de copy migradas do legado
+## Referências de copy
 
 Para frameworks profundos de LP, email/SMS, WhatsApp, vídeo, conteúdo longo e estruturas AIDA/PAS/BAB/4P/FAB/PASTOR/StoryBrand, consultar `knowledge/copy/frameworks.md`.
 

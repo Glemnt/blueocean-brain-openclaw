@@ -104,7 +104,7 @@ Essa planilha é útil para:
 
 Status operacional sugerido para leitura do brain:
 - `ativo`: há sinais recentes de uso e o funil deve entrar naturalmente nas leituras atuais
-- `legado relevante`: não parece central no momento, mas explica histórico e pode voltar a ser usado
+- `histórico relevante`: não parece central no momento, mas explica histórico e pode voltar a ser usado
 - `baixa atividade / experimental`: volume ou continuidade muito baixos; manter no mapa, mas sem sobrepeso analítico
 - `reativável`: mesmo sem uso recente, o funil merece documentação porque pode voltar sem aviso
 
@@ -131,7 +131,7 @@ Esses status não substituem confirmação operacional humana. Eles servem para 
 - schema mais útil para: `DESAFIO`, `MQLS / MÊS`, `MRR`, `CANAIS DE CAPTAÇÃO`, `CARGO`, `META`, `SITE`, `CAMPANHA`, `CONJUNTO`, `ANÚNCIO`, `SDR Responsável`
 - pergunta que esse funil responde melhor: que tipo de lead SaaS está entrando, com qual maturidade de aquisição e qual urgência comercial?
 - sinal operacional observado: amostra consultada mostra atividade concentrada em janeiro de 2026, com forte riqueza de contexto e tracking, mas pouca presença de `ID_LEAD`
-- status operacional sugerido: `legado relevante` + `reativável`
+- status operacional sugerido: `histórico relevante` + `reativável`
 - observação: nem toda linha possui `ID_LEAD`, então a aba ajuda muito na leitura da qualidade de captura, mas pode não ser suficiente sozinha para reconciliação estrutural com CRM
 
 ##### MVP
@@ -143,7 +143,7 @@ Esses status não substituem confirmação operacional humana. Eles servem para 
 - schema mais útil para: `SITUAÇÃO ATUAL`, `MAIOR DESAFIO`, `SE TIVESSE VALIDADO...`, `EXPECTATIVA`, `CAMPANHA`, `CONJUNTO`, `ANÚNCIO`, `SDR Responsável`, `Agendou?`, `Observação`
 - pergunta que esse funil responde melhor: em que estágio o prospect de MVP está e qual tipo de bloqueio de validação/comercial ele relata?
 - sinal operacional observado: amostra consultada mostra atividade concentrada em janeiro de 2026, com forte densidade qualitativa e muitos sinais úteis de operação SDR nas observações
-- status operacional sugerido: `legado relevante` + `reativável`
+- status operacional sugerido: `histórico relevante` + `reativável`
 - observação: serve melhor para leitura de perfil, estágio e qualificação do que para reconciliação comercial final
 
 ##### B2B
@@ -155,7 +155,7 @@ Esses status não substituem confirmação operacional humana. Eles servem para 
 - schema mais útil para: `MRR`, `CANAIS DE AQUISIÇÃO`, `CARGO`, `META`, `SITE`, `CAMPANHA`, `CONJUNTO`, `ANÚNCIO`, `SDR Responsável`
 - pergunta que esse funil responde melhor: que tipo de empresa e decisor está entrando no B2B e com qual urgência/intenção?
 - sinal operacional observado: amostra consultada mostra atividade concentrada em janeiro de 2026
-- status operacional sugerido: `legado relevante` + `reativável`
+- status operacional sugerido: `histórico relevante` + `reativável`
 - observação: há muitos registros sem `ID_LEAD`, então a aba é melhor para leitura de perfil, origem e operação inicial do que para reconciliação estrutural forte
 
 ##### BIO IG
@@ -167,7 +167,7 @@ Esses status não substituem confirmação operacional humana. Eles servem para 
 - schema mais útil para: `SITE`, `SEGMENTO`, `MRR`, `ID_LEAD`, `SDR Responsável`, `Agendou?`, `Fechou?`
 - pergunta que esse funil responde melhor: que perfil de lead chega organicamente ou semi-organicamente via bio e com que densidade de contexto?
 - sinal operacional observado: amostra consultada mostra atividade principalmente entre fim de fevereiro e março de 2026
-- status operacional sugerido: `legado relevante`, com possibilidade de ainda servir como canal recente dependendo do período analisado
+- status operacional sugerido: `histórico relevante`, com possibilidade de ainda servir como canal recente dependendo do período analisado
 - observação: tracking de `CAMPANHA`/`ANÚNCIO` aparece fraco ou vazio em boa parte das linhas; esse funil é melhor para leitura de perfil de entrada do que para atribuição de mídia detalhada
 
 ##### INLEAD
@@ -179,7 +179,7 @@ Esses status não substituem confirmação operacional humana. Eles servem para 
 - schema mais útil para: `SEGMENTO`, `PRINCIPAL DESAFIO`, `MRR`, `CANAL DE AQUISIÇÃO`, `SITE`
 - pergunta que esse funil responde melhor: que dores e canais declarados estão entrando nesse formato de captação?
 - sinal operacional observado: amostra consultada mostra atividade principalmente em março de 2026
-- status operacional sugerido: `legado relevante` ou `reativável`, pendente de leitura completa do período mais recente
+- status operacional sugerido: `histórico relevante` ou `reativável`, pendente de leitura completa do período mais recente
 - observação: por ter pouco `ID_LEAD` visível na amostra, é uma aba forte para leitura qualitativa do topo do funil, mas mais frágil para reconciliação CRM sem apoio adicional
 
 ##### TYPEBOT
@@ -191,7 +191,7 @@ Esses status não substituem confirmação operacional humana. Eles servem para 
 - schema mais útil para: `MRR`, `SITE`, `PRINCIPAL DESAFIO`, `CANAIS DE AQUISIÇÃO`, `CAMPANHA`, `CONJUNTO`, `ANÚNCIO`
 - pergunta que esse funil responde melhor: que perfil de lead entrou pelos fluxos conversacionais e com qual qualidade de preenchimento?
 - sinal operacional observado: amostra consultada mostra atividade concentrada em janeiro de 2026
-- status operacional sugerido: `legado relevante` + `reativável`
+- status operacional sugerido: `histórico relevante` + `reativável`
 - observação: presença visível de linhas incompletas, duplicadas ou com campos quebrados exige filtro forte de qualidade antes de qualquer leitura operacional
 
 ##### LP PADRÃO
@@ -203,7 +203,7 @@ Esses status não substituem confirmação operacional humana. Eles servem para 
 - schema mais útil para: `SITE`, `SEGMENTO`, `MRR`, `SDR Responsável`, `Agendou?`, `Fechou?`, `Observação`
 - pergunta que esse funil responde melhor: que perfil básico de lead a LP padrão trouxe e como a operação reagiu a esses leads?
 - sinal operacional observado: amostra consultada mostra atividade concentrada em janeiro de 2026
-- status operacional sugerido: `legado relevante` + `reativável`
+- status operacional sugerido: `histórico relevante` + `reativável`
 - observação: `CAMPANHA`, `CONJUNTO` e `ANÚNCIO` aparecem amplamente vazios na amostra, então a aba serve mais para leitura comercial de entrada do que para atribuição de mídia
 
 ##### LP V2
@@ -215,7 +215,7 @@ Esses status não substituem confirmação operacional humana. Eles servem para 
 - schema mais útil para: `ID_LEAD`, `SITE`, `SEGMENTO`, `MRR`, `SDR Responsável`, `Agendou?`, `Fechou?`
 - pergunta que esse funil responde melhor: como a segunda versão da LP capturou perfil de lead e em que medida essa captação ficou reconciliável depois?
 - sinal operacional observado: amostra consultada mostra atividade de janeiro a fevereiro de 2026
-- status operacional sugerido: `legado relevante`, com valor de transição instrumental e possível reuso
+- status operacional sugerido: `histórico relevante`, com valor de transição instrumental e possível reuso
 - observação: a aba parece misturar fases diferentes de instrumentação; registros mais novos são mais úteis para reconciliação do que os mais antigos
 
 ##### LP INSTITUCIONAL
@@ -226,7 +226,7 @@ Esses status não substituem confirmação operacional humana. Eles servem para 
 - função principal: captura via landing page institucional, aparentemente com instrumentação mais consistente de `ID_LEAD`
 - schema mais útil para: `ID_LEAD`, `SITE`, `SEGMENTO`, `MRR`, `Agendou?`, `Fechou?`
 - pergunta que esse funil responde melhor: que perfil chega pela LP institucional e com que volume identificado estruturalmente?
-- sinal operacional observado: amostra consultada mostra atividade de fevereiro até pelo menos início de abril de 2026, então não deve ser tratado como legado morto
+- sinal operacional observado: amostra consultada mostra atividade de fevereiro até pelo menos início de abril de 2026, então não deve ser tratado como histórico morto
 - status operacional sugerido: `ativo` ou pelo menos `recentemente ativo`
 - observação: tracking de mídia continua fraco na amostra, mas a presença de `ID_LEAD` melhora bem a ponte com CRM
 

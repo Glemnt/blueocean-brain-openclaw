@@ -10,7 +10,7 @@ Use quando:
 
 - uma análise longa será interrompida;
 - há múltiplos subagents ou handoffs;
-- existe migração/auditoria em andamento;
+- existe auditoria, projeto ou análise longa em andamento;
 - há decisões e lacunas que precisam sobreviver à troca de sessão;
 - o usuário pede para continuar depois.
 
@@ -41,7 +41,7 @@ Use quando:
 | Tipo | Destino |
 |---|---|
 | Continuidade temporária local | memória local / nota de sessão fora do git |
-| Migração ou auditoria versionável | tracker explícito, como `MIGRATION_PROGRESS.md` |
+| Auditoria ou projeto versionável | tracker explícito do projeto ou auditoria |
 | Evidência histórica curada | `history/` |
 | Handoff entre especialistas | `templates/handoff-subagente.md` |
 | Status executivo curto | `templates/status-snapshot.md` |

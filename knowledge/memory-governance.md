@@ -75,7 +75,7 @@ Se deveria continuar ensinando, precisa virar arquivo versionado.
 
 ## Regras herdadas de operação do agente
 
-A migração preserva a intenção do legado Claude Code, mas em forma OpenClaw-native.
+Esta política preserva continuidade operacional em forma OpenClaw-native.
 
 ### Quando sugerir salvar aprendizado
 
@@ -112,7 +112,7 @@ Sugerir consolidação quando uma interação gerar:
 No OpenClaw, continuidade deve usar:
 
 - memória local para contexto transitório;
-- `MIGRATION_PROGRESS.md` ou trackers explícitos para migrações;
+- trackers explícitos para auditorias, projetos e trabalhos longos;
 - `history/` para evidência curada;
 - `templates/handoff-subagente.md` para passagem entre especialistas;
 - TaskFlow/cron apenas quando houver trabalho durável ou espera real.

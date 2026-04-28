@@ -11,7 +11,7 @@ Evidência histórica curada, sanitizada e datada.
 - resumos datados sem PII;
 - decisões de arquitetura;
 - aprendizados históricos de campanhas, stack e operação;
-- linhagem de prompts/playbooks antigos;
+- evolução de prompts/playbooks quando isso explicar uma decisão atual;
 - evidência que ajuda a explicar por que o canon atual existe.
 
 ## O que não entra aqui
